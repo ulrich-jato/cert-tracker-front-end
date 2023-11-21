@@ -7,6 +7,8 @@ WORKDIR /app
 # Copy the entire content of the current directory into the container at /app
 COPY . .
 
+# EXPOSE 000
+
 # Copy the custom Nginx configuration file to the specified location
 COPY ./nginx.conf /etc/nginx/nginx.conf
 
