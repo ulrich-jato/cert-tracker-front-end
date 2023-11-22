@@ -126,6 +126,7 @@ function manipulateRow(certificate) {
     'moreCertInfo',
     'glyphicon',
     'glyphicon-info-sign',
+    'wb-lbx',
     'remove-link-style'
   );
 

@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the entire content of the current directory into the container at /app
 COPY . .
 
-# EXPOSE 000
+EXPOSE 8080
 
 # Copy the custom Nginx configuration file to the specified location
 COPY ./nginx.conf /etc/nginx/nginx.conf
@@ -16,3 +16,4 @@ COPY ./nginx.conf /etc/nginx/nginx.conf
 LABEL maintainer="Jae <jae@example.com>, Jato <jato@example.com>, Kyle <kyle@example.com>"
 LABEL version="1.0"
 LABEL description="Docker image for the Cert Tracker Nginx server"
+
